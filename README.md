@@ -1,6 +1,9 @@
 ## Análisis de componentes principales y procesamiento de lenguage
 ### TP Integrador 2do cuatrimestre 
 
+### Integrante:
+- Ranieri, Martina 1118/22 martubranieri@gmail.com
+
 #### Descripción:
 El objetivo de este trabajo es poder clasificar textos que describen películas para identificar el género de la película. Para poder procesar los textos, el dataset que se utiliza en el trabajo, ya está procesado y tenemos únicamente 4 géneros. Los textos son procesados para generar un vector $x_i$ el cual indica la cantidad de veces que aparece un token para la película $i$. En total tenemos 9581 tokens, entonces podemos pensarlo como una matriz de  $\mathcal{R}^{Nx9581}$ siendo N la cantidad de películas. Como las dimensiones de la matriz son muy grandes y tardaríamos mucho en procesarlo, nos vamos a quedar con las 5000/1000/500 tokens más frecuentes.
 
